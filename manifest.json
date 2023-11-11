@@ -10,5 +10,8 @@
   "background": {
     "page": "index.html",
     "persistent": false
+  },
+  "icons": {
+    "32": "icon.png"
   }
 }
