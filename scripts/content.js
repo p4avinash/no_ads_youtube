@@ -7,5 +7,16 @@ document.addEventListener("readystatechange", (event) => {
     } else {
       console.log("no reload needed")
     }
+
+    if (document.readyState == "complete") {
+      if (
+        document.querySelector(".ytp-chrome-bottom .ytp-fullscreen-button") !=
+        null
+      ) {
+        document
+          .querySelector(".ytp-chrome-bottom .ytp-fullscreen-button")
+          .click()
+      }
+    }
   }
 })
